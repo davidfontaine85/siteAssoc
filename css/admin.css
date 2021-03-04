@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------Typo---------------*/
+
+h1, h2, h3, h4, h5, h6, p, li, a, label, button {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*------------Admin-----------*/
+
+/*----------HeaderAdmin-------------*/
+
+header{
+    background-color: #4DAE47;
+    border: 2.5px solid rgb(39, 88, 36);
+} 
+header h2{
+    font-size: 1.2rem;
+}
+
+/*-----------Section-1--------------*/
+
+
+.menu{
+    border: 2.5px solid rgb(153, 152, 152);
+}
+
+.display-admin{
+    background-color: rgb(83, 88, 94);
+}
+
+/*--------------Comments----------*/
+
+.comment-card{
+    background-color: rgb(250, 245, 240);
+}
+.link-comment:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.add-comment{
+    display: none;
+}
+
+/*--------------AdminMenu-------------*/
+.news-leader, .mail-leader, .user-leader{
+	cursor: pointer;
+}
+
+.news-admin, .mail-admin, .user-admin{
+	font-size: 0.8rem;
+	font-weight: 100;
+}
+
+.exit-admin a{
+	color: black;
+}
+.exit-admin a:hover{
+	text-decoration: none;
+}
